@@ -12,8 +12,14 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
-
+.left{
+  display: flex;
+  justify-content: flex-start
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -29,7 +35,13 @@ body {
   font-style: italic;
 }
 
+.notif-container {
+  display: flex;
+  justify-content:flex-end;
+}
+
 button {
+  
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -41,8 +53,10 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 10px;
 }
 
 ul {
+  display: flex;
   list-style-type: none;
 }
